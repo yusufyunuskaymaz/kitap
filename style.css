@@ -83,3 +83,15 @@ h3{
     margin-top: 4rem;
     margin-bottom: 1rem;
 }
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .fade-in-section.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
