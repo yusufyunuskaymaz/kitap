@@ -1,0 +1,70 @@
+
+
+:root{
+    --primiary-color:#0D619E;
+    --dela: "Dela Gothic One", cursive;
+    --poppins: "Poppins", sans-serif;
+    --secondary-color:#194a7a;
+    --dm:"DM Sans", sans-serif;
+    --nunito:"Nunito", sans-serif;
+    --poet: "Poetsen One", sans-serif;
+    --lobster :"Lobster", sans-serif;
+    --indie: "Indie Flower", cursive;
+    --dancing:"Dancing Script", cursive;
+
+}
+
+
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+  font-family: var(--indie);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+  
+}
+
+h3{
+    color: #111013;
+    text-align: left;
+}
+
+.price{
+    text-align: left;
+    color: var(--primiary-color);
+    font-size: 30px;
+    font-family: var(--indie);
+    font-weight: 700;
+    
+}
+
+.price-div{
+    margin-top: 1rem;
+    border-bottom: 3px dashed var(--primiary-color);
+    justify-content: center;
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+}
+
+.price p{
+   margin-bottom: 0;
+}
+
+.div-no-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 3px dashed var(--primiary-color);
+}
+
+.div-no-img p{
+    font-family: var(--poet);
+    font-weight: 400 !important;
+    font-size: 24px;
+}
