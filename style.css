@@ -10,11 +10,12 @@
   --indie: "Indie Flower", cursive;
   --dancing: "Dancing Script", cursive;
   --josef: "Josefin Sans", sans-serif;
-  --public:"Public Sans", sans-serif;
+  --public: "Public Sans", sans-serif;
 }
 
 body {
-  background-color: #F4F6F8;
+  background-color: #f4f6f8;
+  margin: 0;
 }
 
 p,
@@ -86,27 +87,35 @@ h3 {
   max-width: 150px;
 }
 
-/* .fade-in-section {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-  }
-  
-  .fade-in-section.fade-in {
-    opacity: 1;
-    transform: translateY(0);
-  } */
-
-.with-desc{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: column;
+.with-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
-.with-desc .desc{
-    margin-top: .3rem;
-    font-size: .9rem;
-    color: #637381;
-    font-family: var(--indie);
+.with-desc .desc {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  color: #637381;
+  font-family: var(--indie);
+}
+
+
+.last{
+    margin-bottom: 4rem;
+}
+
+.discount{
+    margin-left: auto;
+    margin-right: .7rem;
+    text-decoration: line-through;
+}
+
+.kahve .div-no-img{
+    align-items: center;
+}
+
+.kahve .div-no-img p:last-child{
+    font-size: 1.3rem;
 }
