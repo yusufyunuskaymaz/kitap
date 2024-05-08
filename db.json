@@ -1,4 +1,4 @@
-export const cities = [
+{cities:[
   {
       "key": 1,
       "label": "Adana"
@@ -325,9 +325,9 @@ export const cities = [
   }
 
 
-]
+],
 
-export const districts = [
+districts:[
   {
     "label": "Adana",
     "key": 1,
@@ -4706,4 +4706,4 @@ export const districts = [
       }
     ]
   }
-]
+]}
